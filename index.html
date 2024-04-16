@@ -6,6 +6,29 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <div id="scoreBoard">
+            <span id="win">Rock, Paper or Scissors?</span>
+            <div id="firstResult">
+                <span>User Score:</span>
+                <div id="userScore">0</div>
+            </div>
+            <div id="secondResult">
+                <span>Computer Score:</span>
+                <div id="computerScore">0</div>
+            </div>
+        </div>
+        <div id="buttonList">
+            <button id="rock">
+                Rock
+            </button>
+            <button id="paper">
+                Paper
+            </button>
+            <button id="scissors">
+                Scissors
+            </button>
+            <button onclick="clearGame()">Reset</button>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
