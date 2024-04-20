@@ -96,3 +96,7 @@ function playRound(playerSelection, computerSelection) {
         return tie;
     }
 }
+// Reset //
+function clearGame() {
+    window.location.reload();
+}
